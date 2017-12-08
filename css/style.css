@@ -1,0 +1,248 @@
+/*THE BODY*******************************************************/
+body {
+	font-size: 10pt;
+	font-family: verdana, tahoma, calibri, sans-serif;
+	color: #000000;
+	margin: 2% auto;
+	background-color: #FFFFFF;
+	background-image: url("../pgimages/marsfun.jpg");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+	line-height: 1.75em;
+
+}
+
+a {
+	color: #FF8C79;
+	font-size: 1em;
+	line-height: 1.1em;	
+}
+
+a:link {
+		color: #FF8C79; /*ORANGE*/
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+		
+a:visited {
+		color: #FF8C79;
+	}
+	
+a:hover {
+		color: #65B724; /*GREEN*/
+		text-decoration: underline;
+	}
+
+
+/*******************************************************/
+/*BODY CONTAINERS, CLASSES, ETC. **********************/
+.overall {
+	width: 50%;
+	height: auto;
+	margin: 3% auto 1% auto;
+	padding: 1% 2%;
+	background-color: #FFFFFF;
+	border: #65B724 thin solid;
+	border-radius: 20px;
+	box-shadow: 5px 5px #D3553E;
+
+}
+
+header, footer {
+	width: 55%;
+	margin: 4% auto 2% auto;
+	padding: 1%;
+	font-size: 16pt;
+	font-weight: bolder;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #D3553E; /*RED*/
+	border: #65B724 thin solid;
+	border-radius: 20px;
+	box-shadow: 5px 5px #D3553E;
+}
+
+footer {
+	margin-top: 3%;
+	padding: 0;
+	line-height: 1em;
+	font-size: 8pt;
+	font-weight: bolder;
+
+}
+
+.success, .err {
+	font-size: 14pt;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+.success {
+	color: #31AB52;
+}
+
+.err {
+	color: #DC143C;
+}
+
+em {
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	color: #D3553E; /*RED*/
+}
+
+/*[Table]*****************************************************************/
+table {
+	width: 95%;
+}
+
+table, th, td {
+	border: solid 1px #65B724; /*green*/
+	padding: 5px;
+	border-radius: 15px;
+}
+
+th {
+	background-color: #D3553E; /*reddish*/
+	color: #FFFFFF;
+	font-size: 14pt;
+}
+
+tr{
+	padding: 2px;
+}
+
+
+td {
+	text-align: left;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+}
+
+/*NAVIGATION*****************************************************************/
+nav {
+	color: #d3553e;
+ 	background-color: #FFFFFF;
+ 	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	border: #65B724 thin solid;
+	border-radius: 20px; 	
+	box-shadow: 5px 5px #D3553E;
+	font-weight: bolder;
+ 	font-size: 14pt;
+ 	text-align: center;
+
+}
+
+nav li {
+	 display: inline;
+	 list-style-type: none;
+	 letter-spacing: .1em;
+
+}
+
+/*NAV: links***********************************************/ 
+	nav a {
+		color: #FF8C79; /*ORANGE*/
+		text-decoration: none;
+		font-weight: bold;			
+		}
+		
+	nav a:link {
+		color: #FF8C79; /*ORANGE*/
+		text-decoration: none;
+		font-weight: bold;
+		}
+						
+	nav a:visited {
+		color: #65B724;
+		}		
+			
+	nav a:hover {
+		color: #65B724; /*GREEN*/
+		text-decoration: underline;
+		}
+
+  
+
+/*SUBMISSION FORM****************************************************/
+/*Fieldset GENERAL*/
+form {
+	padding: 1%;
+	font-size: 1em;
+	margin: 2% auto;
+	width: 95%;
+}
+
+fieldset {
+	background-color: #FFFFFF;
+	border: solid 1px #65B724;
+	border-radius: 15px;
+	width: 80%;
+	padding: 1%;
+	margin: 3px;
+}
+
+/*Legend*/
+legend {
+	font-size: 1.2em;	
+	font-weight: bold;
+}
+
+/*Inputs*/
+input {
+	font-size: 1em;
+	font-family: verdana, tahoma, calibri, sans-serif;
+	color: #d3553e;
+	margin: 5px;
+}
+
+select {
+	margin: 5px;
+}
+
+input:focus {
+	background-color: #F5F095; /*OFF WHITE*/
+}
+
+
+/*Login form */
+#login-form {
+	padding: 0;
+	font-size: 12pt;
+	margin: 1% auto;
+	background-color: #FFFFFF;
+	}
+
+
+/*button*/
+
+.btn {
+	background: #d3553e;
+	color: #FFFFFF;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 1px 0 000000;
+	font-family: verdana, tahoma, calibri, sans-serif;
+	line-height: 1em;
+	padding: 8px;
+  
+}
+
+.btn:focus {
+	color: #65B724;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+
+.btn:hover {
+	color: #d3553e;
+	background-color: #000000;
+	
+}
